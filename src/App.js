@@ -1,3 +1,4 @@
+import FeedbackItem from './components/FeedbackItem'
 import Header from './components/Header'
 
 function App() {
@@ -5,7 +6,7 @@ function App() {
     <>
       <Header />
       <div className="App">
-        <h1>Hello World</h1>
+        <FeedbackItem />
       </div>
     </>
   )
