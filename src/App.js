@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="App">
+      <div className="cantainer">
         <FeedbackList feedback={feedback} />
       </div>
     </>
