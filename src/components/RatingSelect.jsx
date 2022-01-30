@@ -4,7 +4,7 @@ import FeedbackContext from '../context/FeedbackContext'
 function RatingSelect({ select }) {
   const [selected, setSelected] = useState(10)
 
-  const { addFeedback, feedbackEdit } = useContext(FeedbackContext)
+  const { feedbackEdit } = useContext(FeedbackContext)
 
   const handleChange = (e) => {
     setSelected(+e.currentTarget.value) // + で型をnumberに変換
