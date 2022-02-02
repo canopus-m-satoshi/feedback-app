@@ -11,14 +11,9 @@
       "text": "This is feedback I item 2 coming from the back end."
     },
     {
-      "id": 3,
-      "rating": 8,
-      "text": "This is feedback I item 3 coming from the back end."
-    },
-    {
-      "text": "This is a test post",
-      "rating": 5,
-      "id": 4
+      "text": "the new post for test",
+      "rating": 3,
+      "id": 3
     }
   ]
 }
